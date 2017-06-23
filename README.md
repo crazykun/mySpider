@@ -1,10 +1,12 @@
-### go语言爬虫 采集文章到mysql
+### go语言爬虫 采集(头条)文章到mysql
 
 根据指定标签爬取对应文章图片，以"年月日"为目录存储。
 
 ### RUN
 
 ```
+导入go.sql到mysql的数据库中
+
 $ git clone git@github.com:crazykun/mySpider.git
 $ cd MySpider
 $ //main.go后添加需要爬取的标签名
