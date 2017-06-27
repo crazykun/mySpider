@@ -128,7 +128,7 @@ func getImgByPage(url string) {
 				name = path[len(path)-1]
 			}
 			newContent = strings.Replace(newContent, src, "/"+currentTime+"/"+name+".jpg", -1)
-			getImgAndSave(url, name, currentTime)
+			getImgAndSave(src, name, currentTime)
 		})
 
 		stmt, err := db.Prepare("insert ignore into article(url,title,data,update_time) values(?,?,?,?)")
