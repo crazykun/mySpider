@@ -5,7 +5,8 @@
 ### RUN
 
 ```
-导入go.sql到mysql的数据库中
+在mysql中新建数据库go
+导入go.sql到go的数据库中
 
 $ git clone git@github.com:crazykun/mySpider.git
 $ cd MySpider
